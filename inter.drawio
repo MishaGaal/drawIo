@@ -1,0 +1,352 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="agQ6vdEZ3BtZXQ6oGJre">
+    <mxGraphModel dx="3678" dy="1454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="IMU — accelerometer + gyroscope" vertex="1">
+          <mxGeometry height="70" width="390" x="240" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-6" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-7" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="IMU" vertex="1">
+          <mxGeometry height="60" width="120" x="205" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-203" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PJeIiZ8-Ms_5oPDwb-eA-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="&lt;div&gt;Accelerometer&lt;/div&gt;&lt;div&gt;ax ay az&amp;nbsp;m/s² &lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-10" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-198" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-197">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="&lt;div&gt;Gyroscope&lt;/div&gt;&lt;div&gt;gx gy gz&lt;/div&gt;&amp;nbsp;rad/s" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-117" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-114">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="550" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-206" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-202">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ax ≈ 0&lt;br&gt;ay ≈ 0&lt;br&gt;az ≈ -9.81 m/s²" vertex="1">
+          <mxGeometry height="60" width="120" x="-10" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-240" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-243" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;" target="PJeIiZ8-Ms_5oPDwb-eA-171">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;quaternionToEuler(q):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Roll&lt;/div&gt;&lt;div&gt;Yaw&lt;/div&gt;&lt;div&gt;Pitch&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="138" x="470" y="1421" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-244" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-99">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="1476.06" />
+              <mxPoint x="970" y="903.94" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;currentRoll  [rad]&lt;br&gt;currentPitch [rad]&lt;br&gt;currentYaw   [rad]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="120" x="737.88" y="1421" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-64" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PJeIiZ8-Ms_5oPDwb-eA-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-237" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=4;fillColor=#0050ef;strokeColor=#001DBC;" target="PJeIiZ8-Ms_5oPDwb-eA-211">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-62" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="SD-карта" vertex="1">
+          <mxGeometry height="130" width="130" x="1242" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-66" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PJeIiZ8-Ms_5oPDwb-eA-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Маршрут&lt;/div&gt;&lt;div&gt;WP1 -&amp;gt; WP2 -&amp;gt; WP3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="1227" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Наступний WP&lt;/div&gt;&lt;div&gt;wp.x, wp.y, wp.z&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;X = North, meters&lt;br/&gt;Y = East,  meters&lt;br/&gt;Z = Up,    meters&lt;/div&gt;" vertex="1">
+          <mxGeometry height="91" width="120" x="1247" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;desired_heading = atan2(dy, dx)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="210" x="1055" y="1043" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-91" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-88" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="&lt;span class=&quot;ͼ11&quot;&gt;current_heading&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼv&quot;&gt;&amp;nbsp;=&lt;/span&gt;&amp;nbsp;currentYaw&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="210" x="1055" y="1083" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-94" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PJeIiZ8-Ms_5oPDwb-eA-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-90" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;&lt;span class=&quot;ͼ11&quot;&gt;float&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;headingError&lt;/span&gt;&lt;span&gt; =&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;ͼ11&quot;&gt;wrapAngle&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;desiredHeading&lt;/span&gt;&lt;span&gt;&amp;nbsp;-&lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;currentHeading&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="370" x="975" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-97" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-93" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div align=&quot;left&quot;&gt;float desiredRoll =&amp;nbsp;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;K_heading&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&amp;nbsp;* headingError; (де&amp;nbsp;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;K_heading - коефіцієт керування&lt;/span&gt;&lt;span&gt;&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;&lt;div align=&quot;left&quot;&gt;desiredRoll = clamp(desiredRoll,&amp;nbsp; -MAX_ROLL,&amp;nbsp;MAX_ROLL);&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="91" width="340" x="990" y="1293" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-98" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PJeIiZ8-Ms_5oPDwb-eA-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-95" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div align=&quot;left&quot;&gt;&lt;span class=&quot;ͼ11&quot;&gt;float&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;rollError&lt;/span&gt;&lt;span&gt; =&lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;&amp;nbsp;desiredRoll&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼv&quot;&gt;-&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;currentRoll&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="242.5" x="1038.75" y="1438" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-96" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span class=&quot;ͼ11&quot;&gt;float&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;aileron&lt;/span&gt;&lt;span&gt; =&lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;&amp;nbsp;rollPid&lt;/span&gt;&lt;span&gt;.update(&lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;rollError&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;dt&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="260" x="1030" y="1543" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-108" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-232" connectable="0" parent="PJeIiZ8-Ms_5oPDwb-eA-108" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Вертикаль" vertex="1">
+          <mxGeometry relative="1" x="-0.0012" y="4" as="geometry">
+            <mxPoint x="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-181" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-233" connectable="0" parent="PJeIiZ8-Ms_5oPDwb-eA-181" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Горизонталь" vertex="1">
+          <mxGeometry relative="1" x="0.2342" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-99" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="&lt;div&gt;&lt;span class=&quot;ͼ11&quot;&gt;Navigator&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;ͼ11&quot;&gt;float&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;dx&lt;/span&gt;&lt;span&gt; = &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;waypoint&lt;/span&gt;&lt;span&gt;.x &lt;/span&gt;&lt;span class=&quot;ͼv&quot;&gt;-&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;position&lt;/span&gt;&lt;span&gt;.x;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;ͼ11&quot;&gt;float&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;dy&lt;/span&gt;&lt;span&gt; = &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;waypoint&lt;/span&gt;&lt;span&gt;.y &lt;/span&gt;&lt;span class=&quot;ͼv&quot;&gt;-&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;position&lt;/span&gt;&lt;span&gt;.y;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;ͼ11&quot;&gt;float&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;dz&lt;/span&gt;&lt;span&gt; = &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;waypoint&lt;/span&gt;&lt;span&gt;.z &lt;/span&gt;&lt;span class=&quot;ͼv&quot;&gt;-&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;position&lt;/span&gt;&lt;span&gt;.z;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;currentRoll  [rad]&lt;br&gt;currentPitch [rad]&lt;br&gt;currentYaw   [rad]&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="138" width="210" x="1207" y="835" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-100" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;&lt;span class=&quot;ͼ11&quot;&gt;float&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;horizontalDistance&lt;/span&gt;&lt;span&gt; =&lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;&amp;nbsp;sqrtf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;dx&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼv&quot;&gt;*&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;dx&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼv&quot;&gt;+&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;dy&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼv&quot;&gt;*&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;dy&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="275" x="1377.5" y="1043" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-110" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.44;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;" target="PJeIiZ8-Ms_5oPDwb-eA-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-102" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;&lt;span class=&quot;ͼ11&quot;&gt;float&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;desiredPitch&lt;/span&gt;&lt;span&gt; =&lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;&amp;nbsp;atan2f&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;dz&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;horizontalDistance&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;ͼ11&quot;&gt;desiredPitch&lt;/span&gt;&lt;span&gt; =&lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;&amp;nbsp;lamp&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;desiredPitch&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span class=&quot;ͼv&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;MAX_PITCH&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;MAX_PITCH&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="340" x="1381.5" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-104" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;span class=&quot;ͼ11&quot;&gt;float&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;elevator&lt;/span&gt;&lt;span&gt; =&lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;&amp;nbsp;pitchPid&lt;/span&gt;&lt;span&gt;.update(&lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;pitchError&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;dt&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="260" x="1401.5" y="1543" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-111" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PJeIiZ8-Ms_5oPDwb-eA-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-105" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;span class=&quot;ͼ11&quot;&gt;float&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;pitchError&lt;/span&gt;&lt;span&gt; =&lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;&amp;nbsp;desiredPitch&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼv&quot;&gt;-&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;currentPitch&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="275" x="1394" y="1438" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-109" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.391;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" target="PJeIiZ8-Ms_5oPDwb-eA-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-121" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-114" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;BODY&amp;nbsp;&lt;/div&gt;&lt;div&gt;система координат&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-390.75" y="1286" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-125" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PJeIiZ8-Ms_5oPDwb-eA-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-120" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="a_world = R(q) × a_body" vertex="1">
+          <mxGeometry height="60" width="194" x="-427.75" y="1446" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-127" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PJeIiZ8-Ms_5oPDwb-eA-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-124" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Vector3 rotateBodyToWorld(&lt;br&gt;&amp;nbsp; &amp;nbsp; const Vector3&amp;amp; body,&lt;br&gt;&amp;nbsp; &amp;nbsp; const Quaternion&amp;amp; q)&lt;br&gt;{" vertex="1">
+          <mxGeometry height="110" width="210" x="-435.75" y="1676" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-126" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Компенсація g гравітації&lt;br&gt;наприклад для нашої схеми:&lt;span class=&quot;ͼ11&quot;&gt;&lt;br&gt;accelWorld&lt;/span&gt;&lt;span&gt;.z &lt;/span&gt;&lt;span class=&quot;ͼv&quot;&gt;+=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼy&quot;&gt;9.81f&lt;/span&gt;&lt;span&gt;;&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="185.5" x="-423.5" y="1963" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-133" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PJeIiZ8-Ms_5oPDwb-eA-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-129" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Переводення WROLD прискореня(ax_world, ay_world, az_world) в m/s²&amp;nbsp; до шквидкості отримуємо m/s:&lt;br&gt;velocity.x += accelWorld.x * dt;&lt;br&gt;velocity.y += accelWorld.y * dt;&lt;br&gt;velocity.z += accelWorld.z * dt;" vertex="1">
+          <mxGeometry height="100" width="228" x="-435.5" y="2113" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-130" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.458;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" target="PJeIiZ8-Ms_5oPDwb-eA-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-135" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-99">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-321.43" y="2429.86" />
+              <mxPoint x="1740" y="2429.86" />
+              <mxPoint x="1740" y="904.14" />
+            </Array>
+            <mxPoint x="240" y="3915" as="sourcePoint" />
+            <mxPoint x="1357.5" y="2640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-132" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Velocity → Position інтегруємо ще раз:&lt;br&gt;&lt;div&gt;&lt;span class=&quot;ͼ11&quot;&gt;position&lt;/span&gt;&lt;span&gt;.x &lt;/span&gt;&lt;span class=&quot;ͼv&quot;&gt;+=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;velocity&lt;/span&gt;&lt;span&gt;.x &lt;/span&gt;&lt;span class=&quot;ͼv&quot;&gt;*&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;dt&lt;/span&gt;&lt;span&gt;;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;ͼ11&quot;&gt;position&lt;/span&gt;&lt;span&gt;.y &lt;/span&gt;&lt;span class=&quot;ͼv&quot;&gt;+=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;velocity&lt;/span&gt;&lt;span&gt;.y &lt;/span&gt;&lt;span class=&quot;ͼv&quot;&gt;*&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;dt&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;position&lt;/span&gt;&lt;span&gt;.z &lt;/span&gt;&lt;span class=&quot;ͼv&quot;&gt;+=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;velocity&lt;/span&gt;&lt;span&gt;.z &lt;/span&gt;&lt;span class=&quot;ͼv&quot;&gt;*&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;dt&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="228" x="-435.5" y="2283" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-137" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div align=&quot;left&quot;&gt;Беремо IMU показники&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span class=&quot;ͼ11&quot;&gt;a_body&lt;/span&gt;&lt;span&gt; = [&lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;ax&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;ay&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;az&lt;/span&gt;&lt;span&gt;]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span&gt;Отримуємо:&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span class=&quot;ͼ11&quot;&gt;a_world&lt;/span&gt;&lt;span&gt; = [&lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;ax_world&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;ay_world&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span class=&quot;ͼ11&quot;&gt;az_world&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span&gt;З викорисатнням:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;R(q) =&amp;nbsp;&lt;/div&gt;&lt;div&gt;[ 1 - 2(y² + z²)    2(xy - wz)        2(xz + wy)     ]&lt;/div&gt;&lt;div&gt;&amp;nbsp;[ 2(xy + wz)        1 - 2(x² + z²)    2(yz - wx)     ]&lt;/div&gt;&lt;div&gt;&amp;nbsp;[ 2(xz - wy)        2(yz + wx)        1 - 2(x² + y²) ]&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div&gt;a_world = R(q) × a_body&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;struct Vector3 {&lt;br&gt;&amp;nbsp; &amp;nbsp; float x;&lt;br&gt;&amp;nbsp; &amp;nbsp; float y;&lt;br&gt;&amp;nbsp; &amp;nbsp; float z;&lt;br&gt;};&lt;br&gt;&lt;br&gt;struct Quaternion {&lt;br&gt;&amp;nbsp; &amp;nbsp; float w;&lt;br&gt;&amp;nbsp; &amp;nbsp; float x;&lt;br&gt;&amp;nbsp; &amp;nbsp; float y;&lt;br&gt;&amp;nbsp; &amp;nbsp; float z;&lt;br&gt;};&lt;br&gt;&lt;br&gt;Vector3 rotateBodyToWorld(&lt;br&gt;&amp;nbsp; &amp;nbsp; const Vector3&amp;amp; body,&lt;br&gt;&amp;nbsp; &amp;nbsp; const Quaternion&amp;amp; q)&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp; Vector3 world;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; const float w = q.w;&lt;br&gt;&amp;nbsp; &amp;nbsp; const float x = q.x;&lt;br&gt;&amp;nbsp; &amp;nbsp; const float y = q.y;&lt;br&gt;&amp;nbsp; &amp;nbsp; const float z = q.z;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; world.x =&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (1.0f - 2.0f * (y*y + z*z)) * body.x +&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (2.0f * (x*y - w*z))&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; * body.y +&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (2.0f * (x*z + w*y))&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; * body.z;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; world.y =&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (2.0f * (x*y + w*z))&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; * body.x +&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (1.0f - 2.0f * (x*x + z*z)) * body.y +&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (2.0f * (y*z - w*x))&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; * body.z;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; world.z =&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (2.0f * (x*z - w*y))&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; * body.x +&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (2.0f * (y*z + w*x))&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; * body.y +&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (1.0f - 2.0f * (x*x + y*y)) * body.z;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; return world;&lt;br&gt;}&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="843" width="270" x="-830" y="1506" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-144" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;ω = [p, q, r] - де&amp;nbsp;&amp;nbsp;p = angular velocity around BODY X&lt;br&gt;q = angular velocity around BODY Y&lt;br&gt;r = angular velocity around BODY Z&amp;nbsp; (rad/s)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Ω = [0, p, q, r] - to perform quaternion mathematics, we turn that angular-velocity vector into a special quaternion:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;p = gx&lt;br&gt;q = gy&lt;br&gt;r = gz тоді&amp;nbsp;&lt;code&gt;&lt;span&gt;Ω =&amp;nbsp;&lt;/span&gt;&lt;/code&gt;&lt;code&gt;&lt;span&gt;[ 0  ]&lt;/span&gt;&lt;/code&gt;&lt;div class=&quot;pe-11 pt-3&quot;&gt;&lt;div class=&quot;relative z-0 flex max-w-full&quot;&gt;&lt;div id=&quot;code-block-viewer&quot; dir=&quot;ltr&quot; class=&quot;q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼs ͼ16&quot;&gt;&lt;div class=&quot;cm-scroller&quot;&gt;&lt;pre class=&quot;cm-content q9tKkq_readonly m-0&quot;&gt;&lt;code&gt;&lt;span&gt; &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;      &lt;/span&gt;[ gx ]&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;      [ gy ]&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;      [ gz ]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;q̇&amp;nbsp; - похідна за часом&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;q̇ = 1/2 q ⊗ Ω&amp;nbsp; -&amp;nbsp;&lt;span class=&quot;Y2IQFc&quot; lang=&quot;uk&quot;&gt;швидкість зміни орієнтації&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;q = q + q̇ dt&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;q = normalize(q)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;void updateAttitude(&lt;br&gt;&amp;nbsp; &amp;nbsp; float gyroX,&lt;br&gt;&amp;nbsp; &amp;nbsp; float gyroY,&lt;br&gt;&amp;nbsp; &amp;nbsp; float gyroZ,&lt;br&gt;&amp;nbsp; &amp;nbsp; float accelX,&lt;br&gt;&amp;nbsp; &amp;nbsp; float accelY,&lt;br&gt;&amp;nbsp; &amp;nbsp; float accelZ,&lt;br&gt;&amp;nbsp; &amp;nbsp; float dt)&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp; // 1. Normalize accelerometer&lt;br&gt;&amp;nbsp; &amp;nbsp; normalizeVector(accelX, accelY, accelZ);&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; // 2. Calculate expected gravity direction&lt;br&gt;&amp;nbsp; &amp;nbsp; //&amp;nbsp; &amp;nbsp; from current quaternion&lt;br&gt;&amp;nbsp; &amp;nbsp; Vector3 gravity =&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; gravityFromQuaternion(q);&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; // 3. Compare measured vs expected gravity&lt;br&gt;&amp;nbsp; &amp;nbsp; Vector3 error =&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; calculateAttitudeError(&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; accelX, accelY, accelZ,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; gravity&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; );&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; // 4. Integral feedback&lt;br&gt;&amp;nbsp; &amp;nbsp; integral.x += Ki * error.x * dt;&lt;br&gt;&amp;nbsp; &amp;nbsp; integral.y += Ki * error.y * dt;&lt;br&gt;&amp;nbsp; &amp;nbsp; integral.z += Ki * error.z * dt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; // 5. Correct gyro&lt;br&gt;&amp;nbsp; &amp;nbsp; float correctedGx =&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; gyroX + Kp * error.x + integral.x;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; float correctedGy =&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; gyroY + Kp * error.y + integral.y;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; float correctedGz =&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; gyroZ + Kp * error.z + integral.z;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; // 6. Convert angular velocity to quaternion&lt;br&gt;&amp;nbsp; &amp;nbsp; Quaternion omega = {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 0.0f,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; correctedGx,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; correctedGy,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; correctedGz&lt;br&gt;&amp;nbsp; &amp;nbsp; };&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; // 7. Quaternion derivative&lt;br&gt;&amp;nbsp; &amp;nbsp; Quaternion qDot =&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 0.5f * multiply(q, omega);&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; // 8. Integrate&lt;br&gt;&amp;nbsp; &amp;nbsp; q.w += qDot.w * dt;&lt;br&gt;&amp;nbsp; &amp;nbsp; q.x += qDot.x * dt;&lt;br&gt;&amp;nbsp; &amp;nbsp; q.y += qDot.y * dt;&lt;br&gt;&amp;nbsp; &amp;nbsp; q.z += qDot.z * dt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; // 9. Keep quaternion unit-length&lt;br&gt;&amp;nbsp; &amp;nbsp; normalize(q);&lt;br&gt;}&lt;/div&gt;" vertex="1">
+          <mxGeometry height="1240" width="477" x="1910" y="53" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-171" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div align=&quot;left&quot;&gt;EulerAngles quaternionToEuler(const Quaternion&amp;amp; q)&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp; EulerAngles result;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; // Roll&lt;br&gt;&amp;nbsp; &amp;nbsp; result.roll = atan2f(&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2.0f * (q.w*q.x + q.y*q.z),&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1.0f - 2.0f * (q.x*q.x + q.y*q.y)&lt;br&gt;&amp;nbsp; &amp;nbsp; );&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; // Pitch&lt;br&gt;&amp;nbsp; &amp;nbsp; float sinPitch =&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2.0f * (q.w*q.y - q.z*q.x);&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; sinPitch = clamp(sinPitch, -1.0f, 1.0f);&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; result.pitch = asinf(sinPitch);&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; // Yaw&lt;br&gt;&amp;nbsp; &amp;nbsp; result.yaw = atan2f(&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2.0f * (q.w*q.z + q.x*q.y),&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1.0f - 2.0f * (q.y*q.y + q.z*q.z)&lt;br&gt;&amp;nbsp; &amp;nbsp; );&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; return result;&lt;br&gt;}&lt;/div&gt;" vertex="1">
+          <mxGeometry height="390" width="300" x="390" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-191" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-193" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-192" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="326" y="1305" as="sourcePoint" />
+            <mxPoint x="4" y="1717" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-192" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Rotation matrix&lt;br&gt;(Rq)" vertex="1">
+          <mxGeometry height="60" width="120" x="-120" y="1446" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-194" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;WORLD&amp;nbsp;&lt;/div&gt;&lt;div&gt;система координат&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-390.75" y="1845" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-207" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-202">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-197" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="gx ≈ 0.005&lt;br&gt;gy ≈ -0.003&lt;br&gt;gz ≈ 0.002" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-212" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-211">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-213" connectable="0" parent="PJeIiZ8-Ms_5oPDwb-eA-212" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;nbsp;SCK / MOSI / MISO / CS&lt;br&gt;&amp;nbsp;+ DATA READY / INT" vertex="1">
+          <mxGeometry relative="1" x="-0.14" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-202" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SPI&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-217" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PJeIiZ8-Ms_5oPDwb-eA-214">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-211" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="STM32" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-214" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="IMU driver" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-226" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-187">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-223" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Mahony Attitude Estimator" vertex="1">
+          <mxGeometry height="520" width="850" x="-160" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-228" parent="PJeIiZ8-Ms_5oPDwb-eA-223" style="rounded=0;whiteSpace=wrap;html=1;" value="expectedGravityFromQuaternion(q)" vertex="1">
+          <mxGeometry height="60" width="240" x="78" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-146" parent="PJeIiZ8-Ms_5oPDwb-eA-223" style="rounded=0;whiteSpace=wrap;html=1;" value="normalize(q);" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-229" edge="1" parent="PJeIiZ8-Ms_5oPDwb-eA-223" source="PJeIiZ8-Ms_5oPDwb-eA-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-228">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-177" edge="1" parent="PJeIiZ8-Ms_5oPDwb-eA-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="180" as="sourcePoint" />
+            <mxPoint x="640" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-164" edge="1" parent="PJeIiZ8-Ms_5oPDwb-eA-223" source="PJeIiZ8-Ms_5oPDwb-eA-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PJeIiZ8-Ms_5oPDwb-eA-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-151" parent="PJeIiZ8-Ms_5oPDwb-eA-223" style="rounded=0;whiteSpace=wrap;html=1;" value="normilized accel" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-156" edge="1" parent="PJeIiZ8-Ms_5oPDwb-eA-223" source="PJeIiZ8-Ms_5oPDwb-eA-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-152" parent="PJeIiZ8-Ms_5oPDwb-eA-223" style="rounded=0;whiteSpace=wrap;html=1;" value="measured gravity direction" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-157" edge="1" parent="PJeIiZ8-Ms_5oPDwb-eA-223" source="PJeIiZ8-Ms_5oPDwb-eA-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-153" parent="PJeIiZ8-Ms_5oPDwb-eA-223" style="rounded=0;whiteSpace=wrap;html=1;" value="expected gravity" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-168" edge="1" parent="PJeIiZ8-Ms_5oPDwb-eA-223" source="PJeIiZ8-Ms_5oPDwb-eA-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-170" connectable="0" parent="PJeIiZ8-Ms_5oPDwb-eA-168" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="    Kp*e та ∫Ki*e " vertex="1">
+          <mxGeometry relative="1" x="-0.5254" y="-4" as="geometry">
+            <mxPoint x="-5" y="-49" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-155" parent="PJeIiZ8-Ms_5oPDwb-eA-223" style="rounded=0;whiteSpace=wrap;html=1;" value="attitude error" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-200" edge="1" parent="PJeIiZ8-Ms_5oPDwb-eA-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="85" as="sourcePoint" />
+            <mxPoint x="640" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-169" edge="1" parent="PJeIiZ8-Ms_5oPDwb-eA-223" source="PJeIiZ8-Ms_5oPDwb-eA-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-166" parent="PJeIiZ8-Ms_5oPDwb-eA-223" style="rounded=0;whiteSpace=wrap;html=1;" value="corretion" vertex="1">
+          <mxGeometry height="40" width="95" x="411.5" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-230" edge="1" parent="PJeIiZ8-Ms_5oPDwb-eA-223" source="PJeIiZ8-Ms_5oPDwb-eA-228" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.398;entryY=0.956;entryDx=0;entryDy=0;entryPerimeter=0;" target="PJeIiZ8-Ms_5oPDwb-eA-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-158" parent="PJeIiZ8-Ms_5oPDwb-eA-223" style="rounded=0;whiteSpace=wrap;html=1;" value="qyro + correction" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-17" parent="PJeIiZ8-Ms_5oPDwb-eA-223" style="rounded=0;whiteSpace=wrap;html=1;" value="corrected p,q,r" vertex="1">
+          <mxGeometry height="60" width="120" x="595" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-176" parent="PJeIiZ8-Ms_5oPDwb-eA-223" style="rounded=0;whiteSpace=wrap;html=1;" value="Quaternion propagation / integration" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-178" edge="1" parent="PJeIiZ8-Ms_5oPDwb-eA-223" source="PJeIiZ8-Ms_5oPDwb-eA-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PJeIiZ8-Ms_5oPDwb-eA-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-225" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.494;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="PJeIiZ8-Ms_5oPDwb-eA-223" value="ax ay az&#xa;gx gy gz">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-234" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.478;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" target="PJeIiZ8-Ms_5oPDwb-eA-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-235" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.268;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" target="PJeIiZ8-Ms_5oPDwb-eA-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-236" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="IMU&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;STM32&lt;br&gt;&lt;br&gt;SCK&amp;nbsp; &amp;nbsp;───────────────────→&amp;nbsp; SPI_SCK&lt;br&gt;MOSI&amp;nbsp; ←───────────────────&amp;nbsp; SPI_MOSI&lt;br&gt;MISO&amp;nbsp; ───────────────────→&amp;nbsp; SPI_MISO&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;CS&amp;nbsp; &amp;nbsp; ←───────────────────&amp;nbsp; GPIO / SPI_CS&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;INT&amp;nbsp; &amp;nbsp;───────────────────→&amp;nbsp; GPIO interrupt&lt;br&gt;&lt;br&gt;3.3V&amp;nbsp; ────────────────────&amp;nbsp; 3.3V&lt;br&gt;GND&amp;nbsp; &amp;nbsp;────────────────────&amp;nbsp; GND" vertex="1">
+          <mxGeometry height="290" width="415.75" x="-480" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-239" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-187" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt; Quaternion&lt;/div&gt;(q = [w, x, y, z])" vertex="1">
+          <mxGeometry height="60" width="200" x="165" y="1446" as="geometry" />
+        </mxCell>
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-246" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" target="PJeIiZ8-Ms_5oPDwb-eA-144">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="895" />
+              <mxPoint x="850" y="200.57" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
