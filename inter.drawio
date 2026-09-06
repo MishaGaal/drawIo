@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="agQ6vdEZ3BtZXQ6oGJre">
-    <mxGraphModel dx="4528" dy="2554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6380" dy="3474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -165,13 +165,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-114" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;BODY&amp;nbsp;&lt;/div&gt;&lt;div&gt;система координат&lt;br&gt;(ax, ay, az)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="-490.75" y="730" as="geometry" />
+          <mxGeometry height="60" width="120" x="-490.75" y="610" as="geometry" />
         </mxCell>
         <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-125" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PJeIiZ8-Ms_5oPDwb-eA-124">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-120" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Inertial position determine&lt;div&gt;a_world = R(q) × a_body&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="194" x="-527.75" y="960" as="geometry" />
+          <mxGeometry height="60" width="194" x="-527.75" y="874" as="geometry" />
         </mxCell>
         <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-127" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PJeIiZ8-Ms_5oPDwb-eA-126">
           <mxGeometry relative="1" as="geometry" />
@@ -258,7 +258,7 @@
         <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-226" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-187">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-223" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Mahony Attitude Estimator" vertex="1">
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-223" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;strokeWidth=3;" value="Mahony Attitude Estimator" vertex="1">
           <mxGeometry height="520" width="850" x="-160" y="620" as="geometry" />
         </mxCell>
         <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-228" parent="PJeIiZ8-Ms_5oPDwb-eA-223" style="rounded=0;whiteSpace=wrap;html=1;" value="expectedGravityFromQuaternion(q)" vertex="1">
@@ -346,7 +346,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-236" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="IMU&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;STM32&lt;br&gt;&lt;br&gt;SCK&amp;nbsp; &amp;nbsp;───────────────────→&amp;nbsp; SPI_SCK&lt;br&gt;MOSI&amp;nbsp; ←───────────────────&amp;nbsp; SPI_MOSI&lt;br&gt;MISO&amp;nbsp; ───────────────────→&amp;nbsp; SPI_MISO&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;CS&amp;nbsp; &amp;nbsp; ←───────────────────&amp;nbsp; GPIO / SPI_CS&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;INT&amp;nbsp; &amp;nbsp;───────────────────→&amp;nbsp; GPIO interrupt&lt;br&gt;&lt;br&gt;3.3V&amp;nbsp; ────────────────────&amp;nbsp; 3.3V&lt;br&gt;GND&amp;nbsp; &amp;nbsp;────────────────────&amp;nbsp; GND" vertex="1">
-          <mxGeometry height="290" width="415.75" x="-440" y="80" as="geometry" />
+          <mxGeometry height="290" width="415.75" x="-650" y="106" as="geometry" />
         </mxCell>
         <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-239" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PJeIiZ8-Ms_5oPDwb-eA-37">
           <mxGeometry relative="1" as="geometry" />
@@ -359,6 +359,14 @@
             <Array as="points">
               <mxPoint x="840" y="880" />
               <mxPoint x="840" y="200.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6aDGMuEokrqXRDEE95G-2" edge="1" parent="1" source="PJeIiZ8-Ms_5oPDwb-eA-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.009;entryY=0.634;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;" target="PJeIiZ8-Ms_5oPDwb-eA-236">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230.03" y="290.03" />
+              <mxPoint x="-213.48" y="290.03" />
             </Array>
           </mxGeometry>
         </mxCell>
