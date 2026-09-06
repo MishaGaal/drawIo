@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="agQ6vdEZ3BtZXQ6oGJre">
-    <mxGraphModel dx="5740" dy="3177" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4528" dy="2554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,7 +78,7 @@
         <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Маршрут&lt;/div&gt;&lt;div&gt;WP1 -&amp;gt; WP2 -&amp;gt; WP3&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="160" x="1227" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Наступний WP&lt;/div&gt;&lt;div&gt;wp.x, wp.y, wp.z&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;X = North, meters&lt;br/&gt;Y = East,  meters&lt;br/&gt;Z = Up,    meters&lt;/div&gt;" vertex="1">
+        <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Наступний WP&lt;/div&gt;&lt;div&gt;wp.x, wp.y, wp.z&lt;/div&gt;&lt;div&gt;(WORLD AXIS)&lt;/div&gt;&lt;div&gt;X = North, meters&lt;br&gt;Y = East,  meters&lt;br&gt;Z = Up,    meters&lt;/div&gt;" vertex="1">
           <mxGeometry height="91" width="120" x="1247" y="670" as="geometry" />
         </mxCell>
         <mxCell id="PJeIiZ8-Ms_5oPDwb-eA-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;desired_heading = atan2(dy, dx)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
